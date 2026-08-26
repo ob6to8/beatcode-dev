@@ -120,10 +120,12 @@ not apply on this path; this matter has no dependencies.
 
 The installing commits, on this repository's `main` (§14):
 
-- the bootstrap commit — the specification copy (hash verified
-  pre-commit), the installation record, the conventions, the tooling
-  copy, this matter, the README, and the first derived index;
-- the import commit, in which this section's completion lands —
+- the bootstrap commit,
+  `1c73c02495cf08d6e63b0f8c474bd66633b32319` — the specification copy
+  (hash verified pre-commit), the installation record, the
+  conventions, the tooling copy, this matter, the README, and the
+  first derived index;
+- the import commit, in which this section's final form lands —
   m0002–m0005 and m0009 with the itemized edits above, and the index
   regenerated over all six matters.
 
