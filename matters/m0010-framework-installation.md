@@ -3,12 +3,17 @@ type: spec
 title: Framework installation record
 description: "beatcode-dev adopts Formic Matters: the specification copied verbatim at the ratified commit, the conventions and tooling, and the imported beatcode matters — recorded per §14, reaching executed on operator acknowledgment per §11."
 id: m0010
-state: proposed
-status: draft
+state: executed
+status: stable
 tags: [beatcode-dev, bootstrap]
 generated:
   by: claude-code/2026-08-26
   at: 2026-08-26T17:36:59Z
+verified:
+  - by: human:mark
+    at: 2026-08-26T18:33:07Z
+ratified_commit: c6d4a3c4b29bfb1de4bd5aa7fe2e1f9b315c0038
+ratified_sha256: 432ae6c1dbcc3de355dc5eb7929709a08ee9736359c4a1ed2d77ec06082ac638
 ---
 
 # m0010 · Framework installation record
@@ -136,6 +141,27 @@ The installing commits, on this repository's `main` (§14):
   (`../runs/` included), and the generator-edit itemization above
   completed — defects found by the pre-publication adversarial
   review, closed before the operator's acknowledgment.
+
+## Vetting
+
+### Acknowledgment — 2026-08-26
+
+The operator acknowledged this matter per §11 — "I acknowledge m0010
+at commit c6d4a3c" — in the framework's execution thread
+(R6, threads/2026-08-26-m0012-execution.md there), moving it
+`proposed → executed`. Recorded per §6's retroactive regime, the pin
+following the act: `ratified_commit`
+`c6d4a3c4b29bfb1de4bd5aa7fe2e1f9b315c0038` (this repository's `main`
+at the acknowledgment), `ratified_sha256`
+`432ae6c1dbcc3de355dc5eb7929709a08ee9736359c4a1ed2d77ec06082ac638` —
+the body after the frontmatter with `## Retroactive` and
+`## Execution` included, as they stood at the acknowledged commit;
+this entry sits outside that region and after that commit, so the pin
+is undisturbed. Mechanical half:
+the framework's
+runs/2026-08-26-re-ratification-and-acknowledgment-recording.md,
+step 3. The bootstrap is complete; everything after enters through
+the process (§14).
 
 Deviations from m0012's ratified plan: none beyond the itemized,
 licensed edits and the recorded unruled choices above. Date:

@@ -16,6 +16,11 @@ Derived from the frontmatter of every matter in this directory.
 | `m0004` | fix | beatcode, spec, render, claims-dag | [SPEC §9.4 track length mixes an index with a count](m0004-track-length-index-count.md) | frames = last + 22050 yields a 22,049-frame silent tail, one short of the comment's half second; the tail is the oracle's own behavior — resolved, prose-only fix. |
 | `m0005` | fix | beatcode, docs | [beatcode README claims the implementation does not exist](m0005-readme-stale-status.md) | README says Specification seed and heads its command list Commands (once built); the implementation is merged to main with all tests green. |
 | `m0009` | spec | beatcode, spec, process | [SPEC-GAPS becomes a derived view over matters](m0009-spec-gaps-to-matters.md) | The nine SPEC-GAPS entries are retroactively filed spec matters; SPEC-GAPS.md is regenerated from them, not maintained by hand. |
+
+## executed
+
+| | Type | Tags | Matter | Description |
+|---|---|---|---|---|
 | `m0010` | spec | beatcode-dev, bootstrap | [Framework installation record](m0010-framework-installation.md) | beatcode-dev adopts Formic Matters: the specification copied verbatim at the ratified commit, the conventions and tooling, and the imported beatcode matters — recorded per §14, reaching executed on operator acknowledgment per §11. |
 
 ## Ordering
