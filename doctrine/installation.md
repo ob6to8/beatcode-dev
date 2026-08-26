@@ -14,20 +14,25 @@ framework's
   [m0010](../matters/m0010-framework-installation.md), this
   installation's first matter.
 
-Anyone verifies the installation without trusting any agent — three
+Anyone verifies the installation without trusting any agent — two
 commands, the same shape the framework README uses for a ratification
-(the first runs in a clone of the framework repository):
+(the first runs in a clone of the framework repository, the second
+here):
 
 ```
 git show 85fe4511326a30516ed2bf86a2e2a2b9d05c3d25:doctrine/matters.md | sha256sum
 sha256sum doctrine/matters.md        # here, over this repository's copy
-diff <(git show 85fe4511326a30516ed2bf86a2e2a2b9d05c3d25:doctrine/matters.md) doctrine/matters.md
 ```
+
+The two agreeing — and equal to the recorded hash above — means the
+copy is the ratified text. A byte-level `diff` of the same two inputs
+needs both repositories on one machine; the hashes are the portable
+form.
 
 The copy is byte-verbatim, so its internal relative references
 describe the framework repository's tree, not this one: links into
-`../threads/` and to framework matters (m0001, m0006–m0008,
-m0011–m0013) resolve against
+`../threads/` and `../runs/`, and to framework matters (m0001,
+m0006–m0008, m0011–m0013), resolve against
 <https://github.com/markreveley/formic-matters/tree/85fe4511326a30516ed2bf86a2e2a2b9d05c3d25>,
 the source commit. The §11 reference to m0009 happens to resolve here
 as well, because m0009 lives in this collection.

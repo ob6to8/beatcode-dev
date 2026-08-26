@@ -88,8 +88,10 @@ Recorded here so operator acknowledgment confirms them deliberately:
 - the installation record's location and form
   (`doctrine/installation.md`, beside the copy);
 - the one edit to the copied generator: its generated-index header's
-  m0008 link is re-pointed to the pinned framework URL, so the derived
-  index never carries a dangling relative link here;
+  m0008 reference is re-pointed to the pinned framework URL, with the
+  phrase ", the framework's tooling matter." appended to the header
+  sentence, so the derived index never carries a dangling relative
+  link here;
 - `.gitkeep` placeholders holding the empty `threads/` and `runs/`
   directories;
 - the repository README's wording;
@@ -125,9 +127,15 @@ The installing commits, on this repository's `main` (§14):
   (hash verified pre-commit), the installation record, the
   conventions, the tooling copy, this matter, the README, and the
   first derived index;
-- the import commit, in which this section's final form lands —
+- the import commit, `ce9d1a5197b2781ed0f8ed79d0b32bda34526ff9` —
   m0002–m0005 and m0009 with the itemized edits above, and the index
-  regenerated over all six matters.
+  regenerated over all six matters;
+- a correction commit, in which this section's final form lands: the
+  installation record's verification procedure made runnable as
+  annotated and its outward-reference enumeration completed
+  (`../runs/` included), and the generator-edit itemization above
+  completed — defects found by the pre-publication adversarial
+  review, closed before the operator's acknowledgment.
 
 Deviations from m0012's ratified plan: none beyond the itemized,
 licensed edits and the recorded unruled choices above. Date:
